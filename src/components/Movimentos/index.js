@@ -15,7 +15,6 @@ export default function Movimentos({ data }) {
             <Text style={styles.date}>{data.date}</Text>
             <View style={styles.content}>
                 <Text style={styles.label}>{data.label}</Text>
-
                 {showValue ? (
                     <Text
                         style={data.type === 1 ? styles.value : styles.despesas}
